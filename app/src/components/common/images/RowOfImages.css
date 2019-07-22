@@ -1,0 +1,57 @@
+.RowOfImages{
+    width: 100%;
+    background-color: white;
+
+    min-height: calc(100vh - 65px);
+
+}
+
+.RowOfImages img{
+    width: 125px;
+    height: 125px;
+    margin: 15px;
+    
+}
+
+.RowOfImages h2{
+    text-align: center;
+}
+.RowOfImages figure{
+    height: 100%;
+  
+
+}
+
+.RowOfImages #image-container{
+    max-width: 300px;
+    padding: 10px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .RowOfImages h2{
+        width: 100%;
+    }
+
+    .RowOfImages figure{
+    
+      
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+    .RowOfImages h2{
+        width: 38.2%;
+    }
+
+    .RowOfImages figure{
+    
+      
+        width: 61.8%;
+    }
+    
+}

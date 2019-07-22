@@ -1,0 +1,46 @@
+.Nav{
+    box-sizing: border-box;
+    max-height: 55px;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+
+    background-color: white;
+    z-index: 250;
+}
+
+.Nav .navbar-brand #logo-img{
+    box-sizing: border-box;
+    height: 35px;
+    background-color: white;
+    
+}
+
+#navbarColor03{
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+
+ 
+}
+
+#firebaseui_container{
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+#user-login-nav{
+    flex-direction:column;
+
+    }
+}
+
+@media screen and (min-width: 800px) {
+#user-login-nav{
+    flex-direction: row;
+}
+
+}

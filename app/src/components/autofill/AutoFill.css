@@ -1,0 +1,83 @@
+#autofill-container{
+    transition: 0.14s all ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#exit-autofill{
+    position: absolute;
+    font-weight: bolder;
+    top: 0;
+    
+    right: 0;
+    background-color: black;
+    padding: 7px;
+    border-radius: 3px;
+    transition: 0.12s all ease-in-out;
+}
+#exit-autofill:hover{
+    background-color: red;
+}
+.AutoFill{
+    position: absolute;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid #FFAF60;
+    background-color: white;
+    text-align: center;
+ 
+    background-color: rgba(160, 82, 45, 0.97);
+    color: white;
+}
+.AutoFill h4{
+    padding-top: 25px;
+}
+.AutoFill button{
+    background-color: #48BF67;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 10px;
+    transition: 0.12s all ease-in-out;
+    border: 1px solid green;
+}
+.AutoFill button:hover{
+    background-color: #48BF67;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 10px;
+    transform: scale(1.03);
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .AutoFill{
+ 
+
+        margin-top: 50px;
+        top: 0;
+  
+        width: 100%;
+  
+    
+    
+   
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .AutoFill{
+
+        
+        margin-top:20px;
+        width: 50%;
+     
+    
+    
+     
+    }
+
+}

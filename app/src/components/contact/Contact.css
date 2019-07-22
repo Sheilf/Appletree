@@ -1,0 +1,75 @@
+.Contact{
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    text-align:center;
+    width: 100%;
+    justify-content: flex-start;
+    
+ 
+}
+
+.Contact .img-temp-container{
+    padding-top: 10px;
+    height: 50%;
+    width: 100%;
+    background-color: #1C5A9A;
+    background-image: url('https://res.cloudinary.com/eduprojectsil/image/upload/v1528843744/white-logo_fkoxjt.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  
+
+}
+
+.Contact .img-temp-container img{
+    height: 50px;
+    width: 25%;
+}
+
+.Contact p{
+    padding-top: 10px;
+}
+
+.Contact a{
+    margin-top:10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border: 2px solid #1C5A9A;
+    border-radius: 46%;
+    transition: 0.12s all ease-in-out;
+}
+.Contact a:hover{
+    transform: scale(1.03);
+    background-color: #1C5A9A;
+    color: white !important;
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .Contact .img-temp-container{
+        background-size: contain;
+        
+      
+    
+    }
+    
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .Contact .img-temp-container{
+
+        background-size: initial;
+      
+    
+    }
+    
+
+}

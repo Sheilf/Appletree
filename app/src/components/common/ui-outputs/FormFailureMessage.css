@@ -1,0 +1,8 @@
+.FormFailureMessage{
+    padding: 10px;
+    background-color: rgb(255, 24, 0);
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}

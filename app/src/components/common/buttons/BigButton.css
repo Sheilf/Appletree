@@ -1,0 +1,55 @@
+.BigButton{
+    background-image: url('https://res.cloudinary.com/eduprojectsil/image/upload/e_art:hokusai/v1529008757/Index-appletree_awnmci.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: calc(100vh - 65px);
+        width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.BigButton div{
+
+
+  
+}
+.BigButton button{
+    height: 150px;
+    width: 150px;
+    border-radius: 44%;
+    border: 2px solid seagreen;
+    margin: 10px;
+    background-color:#3bbfb5;
+  
+    color: white;
+    outline: none;
+    transition: 0.13s all ease-in-out;
+}
+
+.BigButton button:hover{
+    background-color: #55E145;
+    transform:scale(1.03)
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .BigButton div{
+
+       
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    .BigButton div{
+        width: 50%;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+    }
+
+}

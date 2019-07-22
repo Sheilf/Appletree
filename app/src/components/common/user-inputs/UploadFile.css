@@ -1,0 +1,12 @@
+.UploadFile label{
+    border: 1px solid black;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 38.2%;
+    
+}
+
+.UploadFile label input{
+    visibility: hidden;
+}
+

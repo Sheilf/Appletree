@@ -1,0 +1,12 @@
+.SuccessMessage{
+    color: #0DAA13;
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0.05);
+    font-size: 1.03rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.61s all ease-in-out;
+    margin-bottom: 45px;
+}   
+
+

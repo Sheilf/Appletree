@@ -1,0 +1,40 @@
+.Profile{
+    box-sizing: border-box;
+    padding-top: 55px;
+}
+
+.Profile .profile_container{
+    width: 100%;
+
+}
+.Profile #card-container{
+    width: 61.8%;
+}
+.Profile #user_profile_photo{
+    width: 75px;
+    height: 75px;
+    border-radius: 46%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.12s ease-in-out;
+}
+
+.Profile #user_profile_photo:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.02);
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .Profile #card-container{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .Profile #card-container{
+        width: 61.8%;
+    }
+
+}

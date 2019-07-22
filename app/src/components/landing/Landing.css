@@ -1,0 +1,16 @@
+.landing-section{
+    box-sizing: border-box;
+
+    min-height: 100%;
+
+    background-color: #4963BD;
+}
+
+
+.temp-container{
+    width: 100%;
+}
+.temp-container .head{
+    background-color: #4963BD;
+    color: white;
+}

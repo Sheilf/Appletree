@@ -1,0 +1,99 @@
+.DocumentDownload{
+    color: black;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#posters_photo{
+    width: 75px;
+    height: 75px;
+    border-radius: 46%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.12s ease-in-out;
+}
+
+#posters_photo:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.02);
+}
+.DocumentDownload .document-data{
+
+    
+}
+
+.DocumentDownload .img-container .document-actions{
+    width: 100%;
+    
+}
+
+.DocumentDownload .img-container .document-actions .doc-action{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.DocumentDownload .LibraryItem{
+    
+    border: 1px solid black;
+    border-radius: 7.5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.DocumentDownload .LibraryItem #card-text-container{
+    border-radius: 7.5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding-top: 15px;
+}
+
+.DocumentDownload svg path{
+    color: lightgray;
+    transition: 0.12s all ease-in-out;  
+    width: 50px;
+    color: gray;    
+}
+
+
+.DocumentDownload svg path:hover{
+    color: gold;
+}
+.DocumentDownload .Star{
+    background-color: white;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .DocumentDownload{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .DocumentDownload .document-data{
+        width: 100%;
+    
+    }
+
+    .DocumentDownload .img-container{
+        width: 100%;
+      
+    }
+    
+
+}
+
+@media screen and (min-width: 800px) {
+
+    .DocumentDownload .document-data{
+        width: 38.2%;
+    
+    }
+    .DocumentDownload .img-container{
+        width: 61.8%;
+      
+    }
+    
+
+}

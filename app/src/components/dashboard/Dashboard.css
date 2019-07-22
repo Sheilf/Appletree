@@ -1,0 +1,91 @@
+.Dashboard{
+}
+#dashboard-buttons{
+    margin-top: 49px;
+    position: fixed;
+    background-color: white;
+}
+#dashboard-display{
+    padding: 10px;
+   
+}
+
+#dashboard-buttons button{
+
+    border-radius: 47%;
+    border: 3px solid teal;
+    background-color: white;
+
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    outline: none;
+    transition: 0.12s all ease-in-out;
+
+}
+
+#dashboard-buttons button:hover{
+    color: white;
+    background-color: teal;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.03);
+}
+
+.card-container{
+    width: 100%;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    #dashboard-buttons{
+        width: 100%;
+        height: initial;
+        
+    }
+    .btn-temp-container{
+        flex-direction: row;
+    }
+
+    #dashboard-buttons button{
+        font-size: 12px;
+        width: 68px;
+        height: 68px;
+    }
+    #dashboard-display{
+        width: 100%;
+        padding: 10px;
+        margin-top: 125px;    
+        margin-left: 0%;
+
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .btn-temp-container{
+        flex-direction: column;
+    }
+
+    #dashboard-buttons{
+        width: 38.2%;
+
+        position: fixed;
+        height: calc(100vh - 50px);
+    }
+
+    
+    #dashboard-buttons button{
+        height: 100px;
+        width: 100px;
+        font-size: initial;
+    }
+    #dashboard-display{
+        width: 61.8%;
+        padding: 10px;
+        margin-top: 39px;
+        margin-left: 38.2%;
+    }
+
+}

@@ -1,0 +1,23 @@
+.SelectField{
+    width:100%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SelectField .temp-container{
+
+    width: 61.8%;
+    display:flex;
+    flex-direction: column;
+
+ 
+    
+}
+#select-field{
+    width: 100%;
+    height: 33px;
+    font-size: 12px;
+}
