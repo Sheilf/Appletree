@@ -1,3 +1,5 @@
+Code is not written to my personal standard (production > quality in this case). Happy to criticize poorly written code ^^
+
 /# Appletree
 
 Inside /app/src
